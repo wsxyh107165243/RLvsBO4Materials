@@ -1,0 +1,11 @@
+{
+  "iterations": 1,
+  "n_initial_points": 112,
+  "function_name": "discrete_rastrigin",
+  "batch_size": 1,
+  "mc_samples": 256,
+  "optimization_kwargs": {},
+  "acqf_kwargs": {
+    "pr_use_analytic": true
+  }
+}
