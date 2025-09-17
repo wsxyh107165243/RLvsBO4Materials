@@ -146,7 +146,7 @@ def rl_dqn_serial(init_N = 20,
     joblib.dump(bsf_list, f'rl_single_agent_direct_R-{id_str}.pkl')
 
 if __name__ == '__main__':
-    rl_dqn_double_agents_serial()
+    #rl_dqn_double_agents_serial()
 
     joblib.Parallel(n_jobs = 12)(
         joblib.delayed(rl_dqn_serial)(
